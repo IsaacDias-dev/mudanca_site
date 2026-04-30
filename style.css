@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    background-color: antiquewhite;
+}
+header {
+    background-color: #79BF34;
+    color: #fff;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 15px 25px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+    background-color: #79BF34;
+}
+#info {
+    background-image: linear-gradient(to bottom , #D91E1E, #79BF34);
+    color: #fff;
+    text-align: center;
+    margin: 10px 25%;
+    border-radius: 10px;
+}
+#sobre {
+    text-align: center;
+    margin: 3% 10%;
+    background-color: #6EA637;
+    padding: 10px;
+    border-radius: 10px;
+}
+#programa {
+    text-align: center;
+    margin: 3% 10%;
+    background-color: #6EA637;
+    padding: 10px;
+    border-radius: 10px;
+}
+#palestrantes {
+
+}
+#inscricao {
+
+}
+
+.caixa-link {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #D91E1E;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
