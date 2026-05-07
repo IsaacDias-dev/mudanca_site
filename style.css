@@ -23,39 +23,97 @@ h2 {
     text-align: center;
     background-color: #79BF34;
 }
+img{
+    display: flexbox;
+}
 #info {
-    background-image: linear-gradient(to bottom , #D91E1E, #79BF34);
+    background-image: linear-gradient(to right, #79BF34,#D91E1E);
     color: #fff;
     text-align: center;
     margin: 10px 25%;
     border-radius: 10px;
 }
-#sobre {
+#sobre,#programa  {
     text-align: center;
     margin: 3% 10%;
     background-color: #6EA637;
     padding: 10px;
     border-radius: 10px;
 }
-#programa {
-    text-align: center;
-    margin: 3% 10%;
-    background-color: #6EA637;
-    padding: 10px;
-    border-radius: 10px;
+#img1 {
+    width: 150px;
+    height: 150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNi5Rk-rwahafX0UzjfTrmQ5KFJ7g9HyuaDw&s");
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    background-position: -1px -100px;
 }
-#palestrantes {
-
+#img2 {
+    width: 150px;
+    height: 150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqx1ZQoS_iPxxcTVMBDWufKYxDE6y01oVB3Q&s");
+    background-position-x: 50%;
+    background-position-y: -100px;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial; 
+}
+#img3 {
+    width: 150px;
+    height: 150px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9riJ8ZJhOhOAZ2CkzyHtvo4nY-hl_tR0hHQ&s");
+    background-position-y: -40px;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
 }
 #inscricao {
-
+    display: flex;
+    background-color: #6EA637;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10px;
+    margin: 1% 20%;
+}
+#palestrantes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
 }
 
-.caixa-link {
-    display: inline-block;
+.btn{
+    display: flex;
+    align-self: center;
     padding: 15px 25px;
+    margin: 10px 175px;
     background-color: #D91E1E;
     color: white;
     text-decoration: none;
     border-radius: 8px;
+}
+.grid {
+    display: flex;
+    justify-content: space-around;
+}
+.form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.botaoverde{
+    padding: 15px 25px;
+    background-color: #79BF34;
+    border-radius: 10px;
+}
+.qc{
+    
 }
