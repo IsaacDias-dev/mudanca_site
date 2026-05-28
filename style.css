@@ -29,6 +29,9 @@ h2 {
     text-align: center;
     background-color: #79BF34;
 }
+img{
+    display: flexbox;
+}
 #info {
     background-image: linear-gradient(to right, #79BF34,#D91E1E);
     color: #fff;
@@ -53,10 +56,15 @@ h2 {
     border-color: rgb(204, 204, 204);
     border-image: initial;
     background-position: -1px -100px;
+<<<<<<< HEAD
     transition: .5s;
 }
 #img2 {
     transition: .5s;
+=======
+}
+#img2 {
+>>>>>>> c056475c7b9afbf79ba8b185a6065e0554fc32e9
     width: 150px;
     height: 150px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqx1ZQoS_iPxxcTVMBDWufKYxDE6y01oVB3Q&s");
@@ -66,7 +74,11 @@ h2 {
     border-width: 3px;
     border-style: solid;
     border-color: rgb(204, 204, 204);
+<<<<<<< HEAD
     border-image: initial
+=======
+    border-image: initial; 
+>>>>>>> c056475c7b9afbf79ba8b185a6065e0554fc32e9
 }
 #img3 {
     width: 150px;
@@ -78,7 +90,10 @@ h2 {
     border-style: solid;
     border-color: rgb(204, 204, 204);
     border-image: initial;
+<<<<<<< HEAD
     transition: .5s;
+=======
+>>>>>>> c056475c7b9afbf79ba8b185a6065e0554fc32e9
 }
 #inscricao {
     display: flex;
@@ -97,8 +112,15 @@ h2 {
 }
 
 .btn{
+<<<<<<< HEAD
     align-self:center;
     padding: 0px 100px;
+=======
+    display: flex;
+    align-self: center;
+    padding: 15px 25px;
+    margin: 10px 175px;
+>>>>>>> c056475c7b9afbf79ba8b185a6065e0554fc32e9
     background-color: #D91E1E;
     border-radius: 8px;
     cursor: pointer;
@@ -107,6 +129,7 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
+<<<<<<< HEAD
 .foto:hover{
     cursor: pointer;
     animation: pulse 2s infinite;
@@ -122,6 +145,8 @@ h2 {
         transform: scale(1);
     }
 }
+=======
+>>>>>>> c056475c7b9afbf79ba8b185a6065e0554fc32e9
 .form {
     display: flex;
     width: 100%;
@@ -129,6 +154,7 @@ h2 {
 }
 .botaoverde{
     padding: 15px 25px;
+<<<<<<< HEAD
     background-color: red;
     border-radius: 10px;
 }
@@ -156,4 +182,11 @@ body{
 }
 footer{
     align-self: center;
+=======
+    background-color: #79BF34;
+    border-radius: 10px;
+}
+.qc{
+    
+>>>>>>> c056475c7b9afbf79ba8b185a6065e0554fc32e9
 }
